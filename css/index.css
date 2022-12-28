@@ -1,0 +1,119 @@
+header{
+    display: flex;
+    background-color:#5B0505;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 10px solid #000;
+}
+
+h1{
+    color:#FFF;
+    font-family:"Inter", "Fira Code", "Arial", "Sans Serif";
+    line-height: 60px;
+    text-shadow:3px 3px 6px #f56666;
+    transition: color 0.1s ease-in-out, text-shadow 0.1s ease-in-out;
+}
+
+h1:hover{
+    color:#f56666;
+    text-shadow:3px 3px 6px #000;
+}
+
+nav{
+    text-align: right;
+}
+
+a{
+    display: inline-flex;
+    align-items: center;
+    color:#FFF;
+    font-family:"Raleway", "Fira Code", "Arial", "Sans Serif";
+    font-size:20px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+    transition:transform 0.1s linear, padding 0.1s ease-in-out;
+}
+
+a::before{
+    content:"";
+    background-color: #FFF;
+    width:10px;
+    height:10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+a:hover{
+    transform: scale(1.05);
+    background-color:#000;
+    color:#f56666;
+    box-shadow:3px 3px 6px #f56666;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.button{
+    background:#FFF;
+    color:#000;
+    display:inline-block;
+    height:60px;
+    line-height:60px;
+    padding-right:20px;
+    padding-left:20px;
+    border-radius: 5px;
+    box-shadow:3px 3px 6px black;
+    text-shadow: 0px 0px 0px;
+    margin-right:0;
+    transition: transform 0.1s linear;
+}
+
+.button:hover{
+    transform:scale(1.05);
+    background-color:#000;
+    color:#FFF;
+    box-shadow:3px 3px 6px #f56666;
+    padding:0 20px;
+}
+
+main{
+    background-color: #000;
+}
+
+section{
+    display: inline;
+    position:absolute;
+    top:30%;
+    left:5%;
+    text-shadow: 3px 3px 6px #000;
+    padding:20px;
+    background-color:#5B0505;
+    box-shadow: 12px 12px 3px #000;
+    align-items: center;
+    transition: transform 0.5s ease-in-out;
+}
+
+section:hover{
+    transform: translateY(-25px);
+}
+
+h2{
+    display:inline-flex;
+    color:#FFF;
+    font-family:"Inter", "Fira Code", "Arial", "Sans Serif";
+    font-size:50pt;
+    border-style:double;
+    border-color: #000;
+    border-radius: 10px;
+    margin-bottom:30px;
+    padding:25px 310px;
+}
+
+p{
+    background-color: #2b0707;
+    color:#FFF;
+    font-family:"Fira Code", "Inter", "Arial", "Sans Serif";
+    font-size: 20pt;
+    text-align: center;
+    padding: 20px;
+}
