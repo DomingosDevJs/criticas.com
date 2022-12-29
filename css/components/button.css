@@ -1,0 +1,35 @@
+.button{
+    background:#FFF;
+    color:#000;
+    display:inline-block;
+    height:60px;
+    line-height:60px;
+    padding-right:20px;
+    padding-left:20px;
+    border-radius: 5px;
+    box-shadow:3px 3px 6px black;
+    text-shadow: 0px 0px 0px;
+    margin-right:0;
+    transition: transform 0.1s linear;
+}
+
+.button:hover{
+    transform:scale(1.05);
+    background-color:#000;
+    color:#FFF;
+    box-shadow:3px 3px 6px #f56666;
+    padding:0 20px;
+}
+
+.buttons{
+    display: flex;
+    text-align:center;
+    justify-content: center;
+    margin-top:30px;
+    gap: 100px;
+}
+
+.buttons a{
+    width: 200px;
+    height: 60px;
+}
